@@ -1,0 +1,26 @@
+{
+  "name": "http_hwk",
+  "version": "1.0.0",
+  "description": "HTTP homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Alex Parrotto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start#readme",
+  "dependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
