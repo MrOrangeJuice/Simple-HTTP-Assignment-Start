@@ -1,12 +1,12 @@
 {
   "name": "http_hwk",
   "version": "1.0.0",
-  "description": "HTTP homework",
-  "main": "index.js",
+  "description": "HTTP Homework",
+  "main": "./src/server.js",
   "scripts": {
     "start": "node ./src/server.js",
     "pretest": "eslint ./src --fix",
-    "test": "echo \"Tests complete\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
